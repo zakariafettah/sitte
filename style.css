@@ -1,0 +1,73 @@
+
+
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0; /* Example background color */
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333; /* Example background color */
+    color: #fff; /* Example text color */
+}
+
+header h1 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+header .whatsapp-icon {
+    vertical-align: middle;
+    width: 20px; /* Adjust size as needed */
+    margin-right: 5px;
+}
+
+/* Product container styles */
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Individual product item styles */
+.product-item {
+    text-align: center;
+    background-color: #fff; /* Example background color */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Example box shadow */
+    flex: 1 0 calc(25% - 40px); /* Adjust according to the number of items per row */
+    max-width: calc(25% - 40px); /* Adjust for responsiveness */
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-weight: bold;
+    color: #555; /* Example text color */
+}
+img{
+    box-shadow: 5px 5px 7px black;
+}
